@@ -1,0 +1,3 @@
+node_modules/
+.kino-storage.json
+.DS_Store

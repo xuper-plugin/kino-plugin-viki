@@ -1,0 +1,41 @@
+{
+  "id": "viki",
+  "version": "1.0.0",
+  "apiVersion": 8,
+  "name": "Viki Gratis",
+  "description": "Dramas y películas asiáticas gratuitas de Viki, con subtítulos en español, sin iniciar sesión.",
+  "author": "xuper-plugin",
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "categories": [
+    "series",
+    "movies"
+  ],
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "episodes",
+    "resolve",
+    "drm"
+  ],
+  "section": {
+    "label": "Viki"
+  },
+  "theme": {
+    "accent": "#1A9FFF",
+    "onAccent": "#000000",
+    "background": "#0B1220",
+    "surface": "#16213A",
+    "highlight": "#7CC8FF"
+  },
+  "hosts": [
+    "api.viki.io",
+    "www.viki.com",
+    "manifest-viki.viki.io",
+    "*.vikiplatform.com",
+    "vikiplatform.akamaized.net"
+  ],
+  "telemetry": true,
+  "discoverable": false
+}
