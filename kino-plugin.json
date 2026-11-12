@@ -37,5 +37,5 @@
     "vikiplatform.akamaized.net"
   ],
   "telemetry": true,
-  "discoverable": false
+  "discoverable": true
 }
